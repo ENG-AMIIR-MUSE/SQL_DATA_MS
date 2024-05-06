@@ -1,0 +1,84 @@
+DATABASE:
+---------
+	is a collection of data stored in format that can be easily accessed 
+
+DBMS:
+-----
+	 is used to access data they are ment for exceuting query to access data ,
+	 then sent back the result 
+
+
+We Have Several Database Management System 
+
+relational Vs No-Relational
+------------------------------- 
+
+1) relational Databases
+----------------------
+	 	ih Relational database we use to store the data  into  tables that are linked 			together. thats why we called relational 
+
+Some OF DBMS are 
+--------------------
+	- SQl server 
+	- MYSQL 
+	- oracle 
+
+2) No-Relational 
+----------------
+Non Relational Database we don't have  relational  that are linked together 
+
+some of No-Sql are : 
+------------------
+Mongodb 
+
+
+
+commands 
+---------
+- show databases : shows  all databases 
+
+- use database dbname  : uses or selects a database for you
+
+select * from customer  : fetching all data from customer table 
+
+select * from customer where customer_id  = 2; 
+
+filtering data that is returned from the table 
+
+
+
+
+column specefying vs * 
+
+column specifying has one advantage 
+when you have alot of records it will take some time to fetch it so at that time we use column secifying  
+
+
+* :  fetchs all data from table
+
+
+Distnicts
+-------- : return the unique values means it terminates the duplicates 
+
+
+in SQL When we specify the where cluase  
+sql will iterate all data  and check the condition of where caluse  then if  true it return  to the result set and if not it ignres or not will reutrn 
+
+
+
+------------
+The Default format of sql  data 
+
+year 4 degit , 2degit mongth , 2degit day 
+2023,02,29
+
+
+LIKE
+----
+where name like ['B%']: this means  give any name starts with B and followed by any number of characters 
+ 
+
+Here Its how we use the data ; 
+
+
+
